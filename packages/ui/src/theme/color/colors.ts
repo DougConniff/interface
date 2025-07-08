@@ -169,7 +169,7 @@ const sporeLight = {
   black: colors.black,
   scrim: colors.scrim,
 
-  neutral1: '#131313',
+  neutral1: '#121212',
   neutral1Hovered: 'rgba(19, 19, 19, 0.83)',
   neutral2: 'rgba(19, 19, 19, 0.63)',
   neutral2Hovered: 'rgba(19, 19, 19, 0.83)',
@@ -186,11 +186,11 @@ const sporeLight = {
   surface4: 'rgba(19, 19, 19, 0.08)',
   surface5: 'rgba(0,0,0,0.04)',
   surface5Hovered: 'rgba(0,0,0,0.06)',
-  accent1: '#FF37C7',
+  accent1: '#2C67F2',
   accent1Hovered: '#E500A5',
   accent2: 'rgba(255, 55, 199, 0.08)',
   accent2Hovered: 'rgba(255, 55, 199, 0.12)',
-  accent2Solid: '#FFF3FC',
+  accent2Solid: '#7C4DFF',
   accent3: '#222222',
   accent3Hovered: colors.black,
 
@@ -225,7 +225,7 @@ const sporeDark = {
   neutral3: 'rgba(255, 255, 255, 0.38)',
   neutral3Hovered: 'rgba(255, 255, 255, 0.58)',
 
-  surface1: '#131313',
+  surface1: '#121212',
   surface1Hovered: '#1A1A1A',
   surface2: '#1F1F1F',
   surface2Hovered: '#242424',
@@ -235,12 +235,12 @@ const sporeDark = {
   surface4: 'rgba(255,255,255,0.20)',
   surface5: 'rgba(0,0,0,0.04)',
   surface5Hovered: 'rgba(0,0,0,0.06)',
-  accent1: '#FF37C7',
+  accent1: '#4D85F6',
   accent1Hovered: '#E500A5',
 
   accent2: 'rgba(255, 55, 199, 0.08)',
   accent2Hovered: 'rgba(255, 55, 199, 0.12)',
-  accent2Solid: '#261621',
+  accent2Solid: '#2C67F2',
   accent3: colors.white,
   accent3Hovered: '#F5F5F5',
 
