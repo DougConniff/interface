@@ -5,6 +5,10 @@ html {
   font-feature-settings: 'liga' 0;
   font-variant-ligatures: no-contextual;
 }
+:root {
+  --brand-primary: #2C67F2;
+  --brand-secondary: #7C4DFF;
+}
 
 #root {
   height: 100vh;
