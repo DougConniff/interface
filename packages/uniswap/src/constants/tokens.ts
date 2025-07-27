@@ -63,6 +63,20 @@ export const WBTC_OPTIMISM = new Token(
   'WBTC',
   'Wrapped BTC',
 )
+export const CUSTOM_TOKEN_LIST = {
+  name: 'MyDEX Token List',
+  tokens: [
+    {
+      chainId: 11155111, // Sepolia
+      address: '0xfC788d7c1F9abE29D008a4875e559Bd8B5990AFE',
+      name: 'Launch Stream Token',
+      symbol: 'LST',
+      decimals: 18,
+      logoURI: 'https://launchstream.xyz/LSlogo.png',
+    },
+  ],
+}
+
 
 export const { USDC: USDC_BASE } = BASE_CHAIN_INFO.tokens
 
