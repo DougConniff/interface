@@ -1,8 +1,8 @@
 {
-  "name": "Uniswap",
-  "displayName": "Uniswap",
-  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6443944476",
-  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.uniswap.mobile",
+  "name": "Launch Stream",
+  "displayName": "Launch Stream",
+  "appStoreUrl": "https://apps.apple.com/app/apple-store/",
+  "playStoreUrl": "",
   "expo": {
     "ios": {
       "infoPlist": {
