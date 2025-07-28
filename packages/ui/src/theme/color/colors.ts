@@ -75,8 +75,8 @@ export const colors = {
 
   ...accentColors,
 
-  uniswapXViolet: '#4673FA',
-  uniswapXPurple: '#7D55FB',
+  uniswapXViolet: '#0047FF',
+  uniswapXPurple: '#10143D',
 
   fiatOnRampBanner: '#FB36D0',
 }
@@ -229,7 +229,7 @@ const sporeDark = {
   neutral3: 'rgba(255, 255, 255, 0.38)',
   neutral3Hovered: 'rgba(255, 255, 255, 0.58)',
 
-  surface1: '#131313',
+  surface1: '#121212',
   surface1Hovered: '#1A1A1A',
   surface2: '#1F1F1F',
   surface2Hovered: '#242424',
