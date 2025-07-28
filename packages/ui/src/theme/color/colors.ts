@@ -436,5 +436,5 @@ export const colorsDark = {
   chain_1301: networkColors.unichain.dark,
   chain_10143: networkColors.monad.dark,
 
-  pinkThemed: colors.pinkDark,
+  blueThemed: colors.blueDark,
 }
