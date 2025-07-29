@@ -299,7 +299,7 @@ const RotateElement = ({
   )
 }
 
-export const LandingBackground = ({
+export const LandingBackground = () =>null {
   navigationEventConsumer,
   elementsStyle,
   innerCircleSize = DEFAULT_INNER_CIRCLE_SIZE,
