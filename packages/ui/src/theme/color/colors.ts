@@ -190,15 +190,13 @@ const sporeLight = {
   surface4: 'rgba(19, 19, 19, 0.08)',
   surface5: 'rgba(0,0,0,0.04)',
   surface5Hovered: 'rgba(0,0,0,0.06)',
-  accent1: '#FF37C7',
-  accent1Hovered: '#E500A5',
-  accent2: 'rgba(255, 55, 199, 0.08)',
-  accent2Hovered: 'rgba(255, 55, 199, 0.12)',
-  accent2Solid: '#FFF3FC',
-  accent3: '#222222',
-  accent3Hovered: colors.black,
 
-  DEP_accentSoft: '#FC72FF33', //33 = 20%
+  accent1: colors.blueBase,
+  accent1Hovered: colors.blueVibrant,
+  accent2: 'rgba(73, 129, 255, 0.08)',       // blueBase, 8% opacity
+  accent2Hovered: 'rgba(73, 129, 255, 0.12)',// blueBase, 12% opacity
+  accent2Solid: colors.blueLight,
+  DEP_accentSoft: '#4981FF33', // blueBase, 20%
   DEP_blue400: '#4C82FB',
 
   statusSuccess: '#0C8911',
@@ -239,17 +237,13 @@ const sporeDark = {
   surface4: 'rgba(255,255,255,0.20)',
   surface5: 'rgba(0,0,0,0.04)',
   surface5Hovered: 'rgba(0,0,0,0.06)',
-  accent1: '#FF37C7',
-  accent1Hovered: '#E500A5',
 
-  accent2: 'rgba(255, 55, 199, 0.08)',
-  accent2Hovered: 'rgba(255, 55, 199, 0.12)',
-  accent2Solid: '#261621',
-  accent3: colors.white,
-  accent3Hovered: '#F5F5F5',
-
-  DEP_accentSoft: '#FC72FF33', //33 = 20%
-  DEP_blue400: '#4C82FB',
+  accent1: colors.blueBase,
+  accent1Hovered: colors.blueVibrant,
+  accent2: 'rgba(73, 129, 255, 0.08)',       // blueBase, 8% opacity
+  accent2Hovered: 'rgba(73, 129, 255, 0.12)',// blueBase, 12% opacity
+  accent2Solid: colors.blueDark,
+  DEP_accentSoft: '#4981FF33', // blueBase, 20%,
 
   statusSuccess: '#21C95E',
   statusSuccessHovered: '#15863C',
@@ -347,7 +341,7 @@ export const colorsLight = {
   chain_1301: networkColors.unichain.light,
   chain_10143: networkColors.monad.light,
 
-  pinkThemed: colors.pinkLight,
+  blueThemed: colors.blueLight,
 }
 
 export type ColorKeys = keyof typeof colorsLight
