@@ -346,7 +346,7 @@ export const LandingBackground = ({
     return null
   }
 
-  return (
+  null (
     <OnboardingAnimation
       elementsStyle={elementsStyle}
       innerCircleSize={innerCircleSize}
